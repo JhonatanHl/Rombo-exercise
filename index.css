@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@300;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-main: hsl(217, 54%, 11%);
+  --bg-information: hsl(216, 50%, 16%);
+  --ff-color-title: hsl(0, 0%, 100%);
+  --ff-color-text: hsl(215, 51%, 70%);
+  --fn-h2: 17px;
+  --ff-primary: "Outfit", sans-serif;
+  --ff-color-money: hsl(178, 100%, 50%);
+}
+.container {
+  background-color: var(--bg-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+.attribution {
+  position: absolute;
+  text-align: center;
+}
+.equilibrum-information {
+  display: flex;
+  flex-direction: column;
+  color: var(--bg-information);
+  justify-content: space-around;
+  padding: 20px;
+  width: 350px;
+  background-color: var(--bg-information);
+  color: var(--ff-primary);
+  gap: 20px;
+  border-radius: 15px;
+}
+.rombo img {
+  width: 150px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.equilibrum-information .title {
+  color: var(--ff-color-title);
+}
+.equilibrum-information h2 {
+  color: var(--ff-color-text);
+  font-size: var(--fn-h2);
+  font-family: var(--ff-primary);
+  font-weight: 300;
+}
+.equilibrum-information .information1 {
+  color: var(--ff-color-money);
+  line-height: 15px;
+}
+.equilibrum-information .information2 {
+  color: var(--ff-color-text);
+}
+.equilibrum-information .information3 {
+  color: var(--ff-color-title);
+}
+.equilibrum-information .information4 {
+  color: var(--ff-color-text);
+}
+.informations {
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  gap: 5px;
+}
+.profile-information {
+  border-top: 0.2px solid var(--ff-color-text);
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile-information img {
+  width: 30px;
+  border: 1px solid var(--ff-color-title);
+  border-radius: 100%;
+}
+.equilibrum-information > img {
+  border-radius: 15px;
+}
+.equilibrum-information .imageclock {
+  color: var(--ff-color-text);
+}
+.imageclock {
+  display: flex;
+  gap: 5px;
+}
+.imagediamond {
+  display: flex;
+  gap: 5px;
+}
